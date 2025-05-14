@@ -25,8 +25,7 @@ int main() {
             subtract(angka1, angka2);
             break;
         case 3:
-            int mul = multi(angka1, angka2);
-            printf("Hasil Perkalian: %d\n", mul);
+            multi(angka1, angka2);
             break;
         case 4:
             break;
