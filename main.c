@@ -14,7 +14,7 @@ int main() {
         case 2:
             break;
         case 3:
-            int mul = angka1 * angka2;
+            int mul = multi(angka1, angka2);
             printf("Hasil Perkalian: %d\n", mul);
             break;
         case 4:
@@ -24,4 +24,9 @@ int main() {
     }
 
     return 0;
+}
+
+int multi(int x, int y){
+    int z = x * y;
+    return z;
 }
