@@ -1,5 +1,11 @@
+#include <stdio.h>
+
 int penjumlahan(int a, int b) {
     return a + b;
+}
+
+void subtract(int a, int b) {
+    printf("Hasil pengurangan: %d\n", a - b);
 }
 
 int main() {
@@ -18,6 +24,7 @@ int main() {
             printf("Hasil penjumlahan: %d + %d = %d\n", angka1, angka2, penjumlahan(angka1, angka2));
             break;
         case 2:
+            subtract(angka1, angka2);
             break;
         case 3:
             break;
