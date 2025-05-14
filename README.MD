@@ -1,4 +1,3 @@
-make readme for simple calculator funciton
 # Simple Calculator
 This is a simple calculator program that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator takes two numbers and an operator as input and returns the result of the operation.
 ## Features
