@@ -15,6 +15,7 @@ int main() {
             break;
         case 3:
             int mul = angka1 * angka2;
+            printf("Hasil Perkalian: %d\n", mul);
             break;
         case 4:
             break;
