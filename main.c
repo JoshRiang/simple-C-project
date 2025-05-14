@@ -1,4 +1,9 @@
 #include <stdio.h>
+div-function
+void divide(int angka1, int angka2) {
+    int result = angka1 / angka2;
+    printf("Hasil pembagian: %d\n", result);
+
 
 int penjumlahan(int a, int b) {
     return a + b;
@@ -10,6 +15,7 @@ void subtract(int a, int b) {
 
 void multi(int a, int b){
     printf("Hasil perkalian: %d\n", a * b);
+
 }
 
 int main() {
@@ -34,6 +40,7 @@ int main() {
             multi(angka1, angka2);
             break;
         case 4:
+            divide(angka1, angka2);
             break;
         default:
             printf("Pilihan tidak valid.\n");
