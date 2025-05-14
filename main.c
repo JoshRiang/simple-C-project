@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+int penjumlahan(int a, int b) {
+    return a + b;
+}
+
 void subtract(int a, int b) {
     printf("Hasil pengurangan: %d\n", a - b);
 }
@@ -10,7 +14,8 @@ void multi(int a, int b){
 
 int main() {
     int choice, angka1, angka2;
-    printf("Selamat datang di kalkulator sederhana\nSilahkan masukkan pilihan \n1. Penjumlahan\n2. Pengurangan\n3. Perkalian\n4. Pembagian");
+
+    printf("Selamat datang di kalkulator sederhana\nSilahkan masukkan pilihan:\n1. Penjumlahan\n2. Pengurangan\n3. Perkalian\n4. Pembagian\n");
     scanf("%d", &choice);
 
     printf("Masukkan angka pertama: ");
@@ -20,6 +25,7 @@ int main() {
 
     switch (choice) {
         case 1:
+            printf("Hasil penjumlahan: %d + %d = %d\n", angka1, angka2, penjumlahan(angka1, angka2));
             break;
         case 2:
             subtract(angka1, angka2);
@@ -35,4 +41,3 @@ int main() {
 
     return 0;
 }
-
