@@ -10,6 +10,7 @@ int main() {
 
     switch (choice) {
         case 1:
+             printf("Hasil penjumlahan: %d + %d = %d\n", angka1, angka2, angka1 + angka2);
             break;
         case 2:
             break;
@@ -19,7 +20,7 @@ int main() {
             break;
         default:
             printf("Pilihan tidak valid.\n");
-    }
+}
 
     return 0;
 }
