@@ -8,6 +8,10 @@ void subtract(int a, int b) {
     printf("Hasil pengurangan: %d\n", a - b);
 }
 
+void multi(int a, int b){
+    printf("Hasil perkalian: %d\n", a * b);
+}
+
 int main() {
     int choice, angka1, angka2;
 
@@ -27,6 +31,7 @@ int main() {
             subtract(angka1, angka2);
             break;
         case 3:
+            multi(angka1, angka2);
             break;
         case 4:
             break;
