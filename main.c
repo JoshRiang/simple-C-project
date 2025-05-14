@@ -1,3 +1,4 @@
+#include <stdio.h>
 void divide(int angka1, int angka2) {
     int result = angka1 / angka2;
     printf("Hasil pembagian: %d\n", result);
