@@ -1,9 +1,9 @@
 #include <stdio.h>
-div-function
+
 void divide(int angka1, int angka2) {
     int result = angka1 / angka2;
     printf("Hasil pembagian: %d\n", result);
-
+}
 
 int penjumlahan(int a, int b) {
     return a + b;
