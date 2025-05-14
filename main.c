@@ -1,3 +1,13 @@
+#include <stdio.h>
+
+void subtract(int a, int b) {
+    printf("Hasil pengurangan: %d\n", a - b);
+}
+
+void multi(int a, int b){
+    printf("Hasil perkalian: %d\n", a * b);
+}
+
 int main() {
     int choice, angka1, angka2;
     printf("Selamat datang di kalkulator sederhana\nSilahkan masukkan pilihan \n1. Penjumlahan\n2. Pengurangan\n3. Perkalian\n4. Pembagian");
@@ -12,6 +22,7 @@ int main() {
         case 1:
             break;
         case 2:
+            subtract(angka1, angka2);
             break;
         case 3:
             int mul = multi(angka1, angka2);
@@ -26,7 +37,3 @@ int main() {
     return 0;
 }
 
-int multi(int x, int y){
-    int z = x * y;
-    return z;
-}
