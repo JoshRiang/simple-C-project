@@ -1,6 +1,6 @@
 void divide(int angka1, int angka2) {
     int result = angka1 / angka2;
-    printf("Result: %d\n", result);
+    printf("Hasil pembagian: %d\n", result);
 }
 
 int main() {
