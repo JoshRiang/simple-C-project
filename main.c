@@ -14,7 +14,7 @@ int main() {
         case 2:
             break;
         case 3:
-            int mul;
+            int mul = angka1 * angka2;
             break;
         case 4:
             break;
