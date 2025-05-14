@@ -21,6 +21,7 @@ int main() {
         case 3:
             break;
         case 4:
+            divide(angka1, angka2);
             break;
         default:
             printf("Pilihan tidak valid.\n");
