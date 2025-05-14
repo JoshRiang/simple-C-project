@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main() {
     int choice, angka1, angka2;
     printf("Selamat datang di kalkulator sederhana\nSilahkan masukkan pilihan \n1. Penjumlahan\n2. Pengurangan\n3. Perkalian\n4. Pembagian");
