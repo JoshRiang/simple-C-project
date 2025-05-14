@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int penjumlahan(int a, int b) {
     return a + b;
 }
@@ -7,9 +5,7 @@ int penjumlahan(int a, int b) {
 int main() {
     int choice, angka1, angka2;
 
-    printf("Selamat datang di kalkulator sederhana\n");
-    printf("Silahkan masukkan pilihan:\n");
-    printf("1. Penjumlahan\n2. Pengurangan\n3. Perkalian\n4. Pembagian\n");
+    printf("Selamat datang di kalkulator sederhana\nSilahkan masukkan pilihan:\n1. Penjumlahan\n2. Pengurangan\n3. Perkalian\n4. Pembagian\n");
     scanf("%d", &choice);
 
     printf("Masukkan angka pertama: ");
