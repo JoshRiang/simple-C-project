@@ -1,3 +1,8 @@
+void divide(int angka1, int angka2) {
+    int result = angka1 / angka2;
+    printf("Result: %d\n", result);
+}
+
 int main() {
     int choice, angka1, angka2;
     printf("Selamat datang di kalkulator sederhana\nSilahkan masukkan pilihan \n1. Penjumlahan\n2. Pengurangan\n3. Perkalian\n4. Pembagian");
